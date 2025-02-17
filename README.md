@@ -14,7 +14,7 @@ All the software I used is on the [Software](https://github.com/jfernando-huarez
 - Modify this BIOS you dumped, so we can bypass the wifi whitelist. 
 - After we modify the BIOS nice and clean, we need to flash it.
 
-And that´s it
+And that's it
 
 ## BIOS Backup
 

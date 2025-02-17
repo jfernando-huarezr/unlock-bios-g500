@@ -31,8 +31,8 @@ This is the easiest part, but the one where i got stucked because there wasn't a
 - First donwload [Rufus](https://rufus.ie/en/). We need it to create a FreeDOS bootable drive
 - Once you have the bootable USB, copy the files from the FPT folder into it. You see there a bios.bin file? You need to replace it with your modified bios you created.
 - Now you need to restart your Laptop. You need to boot from the USB. Probably you will need to boot from Legacy instead of UEFI, so if it isn't booting check that first in your BIOS Menu
-- Once you booted from the USB, you will see a command line. First, we need to run  "prr2.exe", so we can bypass the "Error 28: Protected Range Registers". Just type "prr2.exe" and press enter.
-- If all is well, it will say you bypassed the problem. Now just type "flash.bat" and it will flash your modified BIOS. Just wait until it finish. 
+- Once you booted from the USB, you will see a command line. First, we need to run  **"prr2.exe"**, so we can bypass the "Error 28: Protected Range Registers". Just type "prr2.exe" and press enter.
+- If all is well, it will say you bypassed the problem. Now just type **"flash.bat"** and it will flash your modified BIOS. Just wait until it finish. 
 - Once it finish, that should be it. Just power off your Laptop, change the wifi card and boot it up. 
 
 **Congratulations you have now an up to date Wifi Card!**

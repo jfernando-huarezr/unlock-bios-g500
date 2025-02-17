@@ -30,7 +30,7 @@ This is the trickiest part, but just follow the linked guide and you should be f
 
 This is the easiest part, but the one where I got stucked for days because i couldn't find a place with all the information, just bits here and there. So here I'm helping you with what you need to do to flash your new modified BIOS:
 
-- First donwload [Rufus](https://rufus.ie/en/). We need it to create a FreeDOS bootable USB drive
+- First download [Rufus](https://rufus.ie/en/). We need it to create a FreeDOS bootable USB drive
 - Once you created the bootable USB, copy the files from the FPT folder into it. You see there is a bios.bin file, right? You need to replace it with your own modified bios you created. Don't use the default one, that one is only for my laptop and will not work on yours.
 - Now you need to restart your Laptop and boot from the USB. Probably you will need to change the type of boot from UEFI to Legacy, so if it isn't booting check that first in your BIOS Menu and change that.
 - Once you booted from the USB, you will see a command line. First, we need to run  **"prr2.exe"**, so we can bypass the "Error 28: Protected Range Registers". Just type "prr2.exe" and press Enter.
